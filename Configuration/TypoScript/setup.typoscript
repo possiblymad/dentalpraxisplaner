@@ -145,6 +145,7 @@ page {
 
     includeCSS {
         dentalpraxisplaner_layout = EXT:dentalpraxisplaner/Resources/Public/Css/layout.min.css
+        dentalpraxisplaner_appcss = EXT:dentalpraxisplaner/Resources/Public/Css/MainFoundation.css
     }
 
     includeJSLibs {
