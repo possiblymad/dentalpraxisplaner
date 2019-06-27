@@ -1,0 +1,30 @@
+mod.web_layout.BackendLayouts {
+  References {
+    title = Referenzen
+    icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = links
+                colPos = 1
+              }
+              2 {
+                name = mitte
+                colPos = 0
+              }
+              3 {
+                name = oben
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
